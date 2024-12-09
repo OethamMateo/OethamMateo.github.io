@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'MiTipografia';
+    src: url('tpfinalparte1/data/font/WOW.ttf') format('truetype');
+  }
+
+body{
+    cursor: url('imagenes/mouse.png'), auto;
+    
+background-color: rgb(230, 204, 128);
+background-image: url("Imagenes/fondo2.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover; 
+background-position: center;
+}
+::selection{
+    cursor: url('imagenes/mouse.png'), auto;
+
+}
+.paper.container {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+h1,h2,h3 {
+    
+    text-align: center;
+color: rgb(230, 204, 128);
+margin: 10px;
+font-family: 'MiTipografia', sans-serif;
+text-shadow: 
+-1px -1px 0 black, 
+ 1px -1px 0 black, 
+-1px  1px 0 black, 
+ 1px  1px 0 black; 
+
+
+
+}
+
+
+
+input{
+
+    color:rgb(0, 112, 221);
+}
+nav{
+    background-color: rgb(0, 112, 221);
+
+}
+nav a {
+    
+    background-color: rgb(0, 112, 221);
+    font-family: 'MiTipografia', sans-serif;
+text-shadow: 
+-1px -1px 0 black, 
+ 1px -1px 0 black, 
+-1px  1px 0 black, 
+ 1px  1px 0 black; 
+    
+}
+.modal-body {
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 90%;
+    max-height: 90%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    
+    
+}
+img.float-left {
+    position: relative;
+    top: 30px; 
+    border: none; 
+    outline: none;
+    padding: 20px;
+    
+}
+.modal {
+   
+
+    
+   
+    background-color: rgba(0, 0, 0, 0.5); 
+     
+   
+    
+  }
+  .paper-btn {
+    background-color: rgb(0, 112, 221);
+    color: rgb(230, 204, 128);
+    padding: 10px 20px; 
+    
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'MiTipografia', sans-serif;
+text-shadow: 
+-1px -1px 0 black, 
+ 1px -1px 0 black, 
+-1px  1px 0 black, 
+ 1px  1px 0 black; 
+    
+  }
+  
+  .paper-btn:hover {
+    background-color: #0056b3; 
+  }
+  .sm-4{
+
+    text-align: center;
+  }
+  footer {
+    margin-top: 20%;
+        background-color:rgb(0, 112, 221);
+    }
+    footer a{
+        
+        font-family: 'MiTipografia', sans-serif;
+        text-shadow: 
+        -1px -1px 0 black, 
+         1px -1px 0 black, 
+        -1px  1px 0 black, 
+         1px  1px 0 black; 
+    
+    }
+  
+  
+
